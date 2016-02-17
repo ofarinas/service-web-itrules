@@ -1,0 +1,68 @@
+{
+    "@types": ["roster"],
+    "Coach": {
+        "@types": ["person"],
+        "Name": {
+            "@type": "String",
+            "@value": "Juan Antonio Orenga"
+        },
+        "Birthday": {
+            "@type": "Date",
+            "@value": "29/07/1966"
+        },
+        "Country": {
+            "@type": "String",
+            "@value": "Spain"
+        }
+    },
+    "Player": [{
+        "@types": ["person"],
+        "Name": {
+            "@type": "String",
+            "@value": "Pau Gasol"
+        },
+        "Birthday": {
+            "@type": "Date",
+            "@value": "06/07/1980"
+        },
+        "Country": {
+            "@type": "String",
+            "@value": "Spain"
+        },
+        "Club": {
+            "@type": "String",
+            "@value": "L.A. Lakers"
+        }
+    },
+     {
+        "@types": ["person"],
+        "Name": {
+            "@type": "String",
+            "@value": "Rudy Fernandez"
+        },
+        "Birthday": {
+            "@type": "Date",
+            "@value": "04/04/1985"
+        },
+        "Country": {
+            "@type": "String",
+            "@value": "Spain"
+        }
+    },
+     {
+        "@types": ["person"],
+        "Name": {
+            "@type": "String",
+            "@value": "Juan Carlos Navarro"
+        },
+        "Birthday": {
+            "@type": "Date",
+            "@value": "17/06/1980"
+        },
+        "Country": {
+            "@type": "String",
+            "@value": "Spain"
+        }
+    }]
+
+}

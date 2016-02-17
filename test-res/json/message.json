@@ -1,0 +1,21 @@
+{
+  "@types":[ "Message" ],
+  "from":{
+    "@type":"String",
+    "@value":"ofarinas12@gmail.com"
+          },
+  "To":[
+         {"@type":"String","@value":"ofarrom@gmail.com"},
+        {"@type":"String","@value":"ofarinas@outlook.com"}
+       ],
+  "subject":
+       {
+         "@type":"String",
+        "@value":"father"
+       },
+  "body":
+       {
+         "@type":"String",
+         "@value":"Que tal todo en el Hospital"
+       }
+}

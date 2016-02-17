@@ -1,0 +1,6 @@
+def type(Module)
+	<module name="$name">[
+		$modules...[$NL]
+    ]</module>
+end
+

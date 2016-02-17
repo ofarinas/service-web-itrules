@@ -1,0 +1,4 @@
+def type(Person)
+    $Name+lowercase+reverse
+end
+

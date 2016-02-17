@@ -1,0 +1,78 @@
+{
+  "@types": [
+    "class"
+  ],
+  "name": {
+    "@type": "String",
+    "@value": "Customer"
+  },
+  "final": {
+    "@type": "String",
+    "@value": "final"
+  },
+  "superclass": {
+    "@type": "String",
+    "@value": "Client"
+  },
+  "interface": [
+    {
+      "@type": "String",
+      "@value": "Company"
+    },
+    {
+      "@type": "String",
+      "@value": "TaxPayer"
+    }
+  ],
+  "attribute": [
+    {
+      "@types": [
+        "attribute",
+        "const"
+      ],
+      "name": {
+        "@type": "String",
+        "@value": "CUSTOMER_NAME"
+      },
+      "type": {
+        "@type": "String",
+        "@value": "String"
+      },
+      "default": {
+        "@type": "String",
+        "@value": "\"CUSTOMER\""
+      }
+    },
+    {
+      "@types": [
+        "attribute",
+        "readonly"
+      ],
+      "name": {
+        "@type": "String",
+        "@value": "familyName"
+      },
+      "type": {
+        "@type": "String",
+        "@value": "String"
+      }
+    },
+    {
+      "@types": [
+        "attribute"
+      ],
+      "name": {
+        "@type": "String",
+        "@value": "maxAge"
+      },
+      "type": {
+        "@type": "String",
+        "@value": "Integer"
+      },
+      "default": {
+        "@type": "String",
+        "@value": "100"
+      }
+    }
+  ]
+}

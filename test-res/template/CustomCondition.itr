@@ -1,0 +1,17 @@
+def type(Person)
+    $Name has $PetsCount+Letters pets:
+      $Pets...[$NL]
+end
+
+def type(Dog)
+    $Name, a $Age dog
+end
+
+def type(Cat)
+    $Name, a $Age+Age kitty
+end
+
+
+def trigger(Age)
+    $value+Letters years old
+end

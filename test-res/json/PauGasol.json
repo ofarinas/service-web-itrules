@@ -1,0 +1,16 @@
+{
+    "@types": [ "person" ],
+    "Name": {
+      "@type": "String",
+      "@value": "Paul Gasol"
+    },
+    "Birthday": {
+        "@type": "Date",
+        "@value": "07/06/1980"
+    },
+    "Country": {
+        "@type":  "String",
+        "@value": "Spain"
+    }
+}
+

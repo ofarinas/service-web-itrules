@@ -1,0 +1,16 @@
+def type(Roster)
+	<roster>
+		$Coach
+		<players>
+			$Players...[$NL]
+		</players>
+    </roster>
+end
+
+def type(Person) trigger(Coach)
+    <coach name="$Name" year="$Birthday+Year" country="$Country"[<NotExist $NotExist>?/>]
+end
+
+def type(Person)
+    <player name="$Name" year="$Birthday+Year" country="$Country" [club="$Club" ]/>
+end
