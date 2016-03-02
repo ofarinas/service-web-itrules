@@ -1,4 +1,0 @@
-def type(Person)
-    $Name is from $Continent
-end
-

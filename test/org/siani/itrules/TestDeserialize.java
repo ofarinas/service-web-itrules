@@ -23,10 +23,7 @@ public class TestDeserialize {
         assertEquals(frame2.frames("Name").next().value(),"Paul Gasol");
         assertEquals(frame2.frames("Birthday").next().value(), new SimpleDateFormat("dd/MM/yyyy").parse("07/06/1980"));
         assertEquals(frame2.frames("Country").next().value(), "Spain");
-        TemplateEngine templateEngine =new TemplateEngine().use("testDate-res/template/pauGasol.itr");
-        System.out.println(templateEngine.render(frame2));
     }
-
 
     @Test
     public void optionalAttributesTest() throws Exception {
